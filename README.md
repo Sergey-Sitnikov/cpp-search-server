@@ -9,7 +9,7 @@ search_server.cpp
 
 Метод FindTopDocuments возвращает вектор документов, согласно соответствию переданным ключевым словам. Результаты отсортированы по TF-IDF.
 
-Добавлены многопоточные версии методов FindTopDocuments (test), FindAllDocuments, MatchDocument и RemoveDocument
+Добавлены многопоточные версии методов FindTopDocuments, FindAllDocuments, MatchDocument и RemoveDocument
 
 Потокобезопасный class ConcurrentMap concurrent_map.h
 
